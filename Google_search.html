@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Search</title>
+
+    <style>
+        body {
+            text-align: center; /* Center everything */
+            font-family: Arial, sans-serif;
+        }
+
+        #logo {
+            color: black;
+            font-size: 50px;
+            font-weight: bold;
+            margin-top: 100px; /* Adjust spacing */
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        input[type="text"] {
+            width: 300px;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 20px;
+            border: 1px solid #ccc;
+            outline: none;
+        }
+
+        button ,#img,#advanced{
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            background-color: #4285F4;
+            color: white;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #357ae8;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <div id="logo">Google</div>
+
+    
+    <div style="text-align: right;">
+        <a id="img" href="Google_img_search.html">Image Search</a> |
+
+        <a  id="advanced" href="Google _advanced_search.html">Advanced Search</a>
+    </div>
+
+
+    <form action="https://www.google.com/search" method="GET" style="text-align: center;">
+        <input type="text" name="q" placeholder="Search Google">
+        <button type="submit">Search</button>
+        <br><br>
+        <input type="submit" value="Google Search">
+        <input type="submit" name="btnI" value="I'm Feeling Lucky">
+    </form>
+
+</body>
+</html>
