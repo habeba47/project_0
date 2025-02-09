@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Image Search</title>
+    <style>
+        body {
+            text-align: center; /* Center everything */
+            font-family: Arial, sans-serif;
+        }
+
+        #logo {
+            color: black;
+            font-size: 50px;
+            font-weight: bold;
+            margin-top: 100px; /* Adjust spacing */
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        input[type="text"] {
+            width: 300px;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 20px;
+            border: 1px solid #ccc;
+            outline: none;
+        }
+
+        button,#se {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            background-color: #4285F4;
+            color: white;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #357ae8;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Link (Top-Right) -->
+    <div  style="text-align: right;">
+
+        <a id="se" href="Google_search.html">Google Search</a>
+    </div>
+
+    <!-- Google Image Search Form -->
+    <h1 id="logo" style="text-align: center;">Google Image Search</h1>
+    <form action="https://www.google.com/search" method="GET" style="text-align: center;">
+        <br><br>
+        <input type="text" name="q" placeholder="Search Google Image">
+        <button type="submit">Search</button>
+    </form>
+</body>
+</html>
